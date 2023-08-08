@@ -12,5 +12,6 @@ pip install -r https://raw.githubusercontent.com/huggingface/deep-rl-class/main/
 
 pip install matplotlib
 pip install torch
-
+pip install imageio
 # conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+# conda install pytorch==1.7.0 torchvision torchaudio cudatoolkit=11.0 -c pytorch
