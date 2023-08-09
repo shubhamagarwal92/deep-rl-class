@@ -1,6 +1,6 @@
 # https://huggingface.co/learn/deep-rl-course/unit7/hands-on
-conda create --name rl python=3.9 -y
-conda activate rl
+conda create --name rl_7 python=3.9 -y
+conda activate rl_7
 
 git clone https://github.com/Unity-Technologies/ml-agents
 
@@ -11,6 +11,8 @@ pip install -e ./ml-agents
 
 #pip install torch
 
+# pip install numpy==numpy==1.21.2
+# conda install pytorch=1.11.0 torchvision=0.12 torchaudio=0.11 cudatoolkit=11.5 -c pytorch -c conda-forge
 pip install gdown
 
 sudo apt-get install git-lfs
